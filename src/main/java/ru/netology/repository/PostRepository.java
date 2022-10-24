@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 // Stub
-@Repository
+
 public class PostRepository {
     private final ConcurrentMap<Long, Post> allPosts;
     private final AtomicLong idCounter = new AtomicLong();
